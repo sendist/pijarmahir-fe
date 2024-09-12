@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #EEEEEE;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.h1 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 4rem;
+  line-height: 5rem;
+}
+
+.h2 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 3rem;
+  line-height: 3.75rem;
+}
+
+.h3 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 2.25rem;
+  line-height: 2.8125rem;
+}
+
+.h4 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+.headline {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+}
+
+.body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.5625rem;
+}
+
+.subtitle {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 1rem;
+  line-height: 1.25rem;
+}
+
+.caption {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 0.75rem;
+  line-height: 0.9375rem;
+}
+
+.footnote {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 0.625rem;
+  line-height: 0.78125rem;
+}
